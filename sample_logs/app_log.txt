@@ -1,0 +1,143 @@
+1. 2024-08-31 18:00:21 INFO [100001]  [UserService] User login successful: userId=12345
+2. 2024-08-31 18:01:05 ERROR [100001] [PaymentService] Payment processing failed: orderId=67890, error=Insufficient funds
+3. 2024-08-31 18:02:15 DEBUG [100001] [InventoryService] Checking stock for productId=54321
+4. 2024-08-31 18:03:45 WARN [100001]  [AuthService] Failed login attempt: username=johndoe
+5. 2024-08-31 18:04:30 INFO [100001]  [OrderService] Order placed successfully: orderId=98765
+6. 2024-08-31 18:05:10 ERROR [100001] [DatabaseService] Database connection timeout: db=UserDB
+7. 2024-08-31 18:06:25 DEBUG [100001] [CacheService] Cache miss for key=user_12345
+8. 2024-08-31 18:07:50 INFO [100001]  [NotificationService] Email sent to user: userId=12345, email=johndoe@example.com
+9. 2024-08-31 18:08:35 WARN [100001]  [PaymentService] Payment retry attempt: orderId=67890
+10. 2024-08-31 18:09:20 INFO  [UserService] User profile updated: userId=12345
+11. 2024-08-31 18:10:05 ERROR [OrderService] Order cancellation failed: orderId=98765, error=Order already shipped
+12. 2024-08-31 18:11:30 DEBUG [InventoryService] Stock level updated: productId=54321, newStock=100
+13. 2024-08-31 18:12:15 INFO  [AuthService] Password reset request: username=johndoe
+14. 2024-08-31 18:13:45 WARN  [NotificationService] SMS sending failed: userId=12345, phone=+1234567890
+15. 2024-08-31 18:14:30 INFO  [UserService] User logout successful: userId=12345
+16. 2024-08-31 18:15:10 ERROR [DatabaseService] Query execution failed: query=SELECT * FROM users
+17. 2024-08-31 18:16:25 DEBUG [CacheService] Cache hit for key=order_98765
+18. 2024-08-31 18:17:50 INFO  [OrderService] Order shipped: orderId=98765, trackingNumber=TRACK12345
+19. 2024-08-31 18:18:35 WARN  [PaymentService] Payment gateway timeout: orderId=67890
+20. 2024-08-31 18:19:20 INFO  [UserService] User registration successful: userId=54321
+21. 2024-08-31 18:20:05 ERROR [NotificationService] Email sending failed: userId=12345, error=SMTP server not reachable
+22. 2024-08-31 18:21:30 DEBUG [InventoryService] Product added to inventory: productId=98765
+23. 2024-08-31 18:22:15 INFO  [AuthService] User authenticated: username=johndoe
+24. 2024-08-31 18:23:45 WARN  [OrderService] Order processing delayed: orderId=67890
+25. 2024-08-31 18:24:30 INFO  [UserService] User password changed: userId=12345
+26. 2024-08-31 18:25:10 ERROR [DatabaseService] Data integrity violation: table=orders
+27. 2024-08-31 18:26:25 DEBUG [CacheService] Cache cleared for key=product_54321
+28. 2024-08-31 18:27:50 INFO  [NotificationService] Push notification sent: userId=12345, message=Your order has been shipped
+29. 2024-08-31 18:28:35 WARN  [PaymentService] Payment declined: orderId=67890, reason=Card expired
+30. 2024-08-31 18:29:20 INFO  [UserService] User account deactivated: userId=54321
+31. 2024-08-31 18:30:05 ERROR [OrderService] Order refund failed: orderId=98765, error=Refund amount exceeds limit
+32. 2024-08-31 18:31:30 DEBUG [InventoryService] Inventory check completed: productId=54321
+33. 2024-08-31 18:32:15 INFO  [AuthService] User session extended: username=johndoe
+34. 2024-08-31 18:33:45 WARN  [NotificationService] Push notification failed: userId=12345, error=Device not registered
+35. 2024-08-31 18:34:30 INFO  [UserService] User email updated: userId=12345, newEmail=johndoe_new@example.com
+36. 2024-08-31 18:35:10 ERROR [DatabaseService] Transaction rollback: transactionId=TX12345
+37. 2024-08-31 18:36:25 DEBUG [CacheService] Cache preloaded for key=category_98765
+38. 2024-08-31 18:37:50 INFO  [OrderService] Order delivered: orderId=98765, deliveryDate=2024-08-31
+39. 2024-08-31 18:38:35 WARN  [PaymentService] Payment authorization pending: orderId=67890
+40. 2024-08-31 18:39:20 INFO  [UserService] User subscription renewed: userId=54321
+41. 2024-08-31 18:40:05 ERROR [NotificationService] SMS sending failed: userId=12345, error=Invalid phone number
+42. 2024-08-31 18:41:30 DEBUG [InventoryService] Product removed from inventory: productId=98765
+43. 2024-08-31 18:42:15 INFO  [AuthService] User logged out: username=johndoe
+44. 2024-08-31 18:43:45 WARN  [OrderService] Order shipment delayed: orderId=67890
+45. 2024-08-31 18:44:30 INFO  [UserService] User profile picture updated: userId=12345
+46. 2024-08-31 18:45:10 ERROR [DatabaseService] Index creation failed: indexName=idx_users_email
+47. 2024-08-31 18:46:25 DEBUG [CacheService] Cache invalidated for key=order_98765
+48. 2024-08-31 18:47:50 INFO  [NotificationService] Email verification sent: userId=12345, email=johndoe@example.com
+49. 2024-08-31 18:48:35 WARN  [PaymentService] Payment method expired: orderId=67890
+50. 2024-08-31 18:49:20 INFO  [UserService] User account reactivated: userId=54321
+1. 2024-08-31 19:40:21 INFO  [UserService] User login successful: userId=67890, username=janedoe, ipAddress=192.168.1.1
+2. 2024-08-31 19:41:05 ERROR [PaymentService] Payment processing failed: orderId=12345, amount=99.99, error=Insufficient funds
+3. 2024-08-31 19:42:15 DEBUG [InventoryService] Checking stock for productId=98765, currentStock=50, warehouse=WH1
+4. 2024-08-31 19:43:45 WARN  [AuthService] Failed login attempt: username=janedoe, reason=Incorrect password, ipAddress=192.168.1.2
+5. 2024-08-31 19:44:30 INFO  [OrderService] Order placed successfully: orderId=54321, userId=67890, totalAmount=150.00
+6. 2024-08-31 19:45:10 ERROR [DatabaseService] Database connection timeout: db=OrderDB, server=dbserver1, timeout=30s
+7. 2024-08-31 19:46:25 DEBUG [CacheService] Cache miss for key=user_67890, cacheName=UserCache, action=fetchFromDB
+8. 2024-08-31 19:47:50 INFO  [NotificationService] Email sent to user: userId=67890, email=janedoe@example.com, subject=Order Confirmation
+9. 2024-08-31 19:48:35 WARN  [PaymentService] Payment retry attempt: orderId=12345, retryCount=2, nextRetry=2024-08-31 20:00:00
+10. 2024-08-31 19:49:20 INFO  [UserService] User profile updated: userId=67890, fieldsUpdated=email,phone
+11. 2024-08-31 19:50:05 ERROR [OrderService] Order cancellation failed: orderId=54321, error=Order already shipped, userId=67890
+12. 2024-08-31 19:51:30 DEBUG [InventoryService] Stock level updated: productId=98765, newStock=100, warehouse=WH1
+13. 2024-08-31 19:52:15 INFO  [AuthService] Password reset request: username=janedoe, email=janedoe@example.com, requestId=PR12345
+14. 2024-08-31 19:53:45 WARN  [NotificationService] SMS sending failed: userId=67890, phone=+1234567890, error=Invalid phone number
+15. 2024-08-31 19:54:30 INFO  [UserService] User logout successful: userId=67890, sessionDuration=3600s
+16. 2024-08-31 19:55:10 ERROR [DatabaseService] Query execution failed: query=SELECT * FROM orders WHERE userId=67890, error=Syntax error
+17. 2024-08-31 19:56:25 DEBUG [CacheService] Cache hit for key=order_54321, cacheName=OrderCache, action=returnCachedValue
+18. 2024-08-31 19:57:50 INFO  [OrderService] Order shipped: orderId=54321, trackingNumber=TRACK12345, carrier=FedEx
+19. 2024-08-31 19:58:35 WARN  [PaymentService] Payment gateway timeout: orderId=12345, gateway=PayPal, timeout=60s
+20. 2024-08-31 19:59:20 INFO  [UserService] User registration successful: userId=98765, username=janedoe2, email=janedoe2@example.com
+21. 2024-08-31 20:00:05 ERROR [NotificationService] Email sending failed: userId=67890, email=janedoe@example.com, error=SMTP server not reachable
+22. 2024-08-31 20:01:30 DEBUG [InventoryService] Product added to inventory: productId=54321, initialStock=200, warehouse=WH2
+23. 2024-08-31 20:02:15 INFO  [AuthService] User authenticated: username=janedoe, userId=67890, ipAddress=192.168.1.3
+24. 2024-08-31 20:03:45 WARN  [OrderService] Order processing delayed: orderId=12345, reason=High order volume, expectedDelay=30m
+25. 2024-08-31 20:04:30 INFO  [UserService] User password changed: userId=67890, changeMethod=selfService
+26. 2024-08-31 20:05:10 ERROR [DatabaseService] Data integrity violation: table=users, constraint=unique_email, email=janedoe@example.com
+27. 2024-08-31 20:06:25 DEBUG [CacheService] Cache cleared for key=product_98765, cacheName=ProductCache, action=clearCache
+28. 2024-08-31 20:07:50 INFO  [NotificationService] Push notification sent: userId=67890, message=Your order has been shipped, orderId=54321
+29. 2024-08-31 20:08:35 WARN  [PaymentService] Payment declined: orderId=12345, reason=Card expired, userId=67890
+30. 2024-08-31 20:09:20 INFO  [UserService] User account deactivated: userId=98765, reason=User request
+31. 2024-08-31 20:10:05 ERROR [OrderService] Order refund failed: orderId=54321, error=Refund amount exceeds limit, userId=67890
+32. 2024-08-31 20:11:30 DEBUG [InventoryService] Inventory check completed: productId=98765, currentStock=150, warehouse=WH1
+33. 2024-08-31 20:12:15 INFO  [AuthService] User session extended: username=janedoe, userId=67890, newExpiry=2024-08-31 21:00:00
+34. 2024-08-31 20:13:45 WARN  [NotificationService] Push notification failed: userId=67890, error=Device not registered, deviceId=DEV12345
+35. 2024-08-31 20:14:30 INFO  [UserService] User email updated: userId=67890, newEmail=janedoe_new@example.com, oldEmail=janedoe@example.com
+36. 2024-08-31 20:15:10 ERROR [DatabaseService] Transaction rollback: transactionId=TX12345, reason=Deadlock detected
+37. 2024-08-31 20:16:25 DEBUG [CacheService] Cache preloaded for key=category_54321, cacheName=CategoryCache, preloadTime=2024-08-31 20:16:00
+38. 2024-08-31 20:17:50 INFO  [OrderService] Order delivered: orderId=54321, deliveryDate=2024-08-31, deliveryTime=14:30
+39. 2024-08-31 20:18:35 WARN  [PaymentService] Payment authorization pending: orderId=12345, userId=67890, authorizationId=AUTH12345
+40. 2024-08-31 20:19:20 INFO  [UserService] User subscription renewed: userId=98765, subscriptionType=Premium, renewalDate=2024-08-31
+41. 2024-08-31 20:20:05 ERROR [NotificationService] SMS sending failed: userId=67890, phone=+1234567890, error=Invalid phone number format
+42. 2024-08-31 20:21:30 DEBUG [InventoryService] Product removed from inventory: productId=54321, quantityRemoved=50, warehouse=WH2
+43. 2024-08-31 20:22:15 INFO  [AuthService] User logged out: username=janedoe, userId=67890, sessionDuration=7200s
+44. 2024-08-31 20:23:45 WARN  [OrderService] Order shipment delayed: orderId=12345, reason=Carrier issue, newExpectedDelivery=2024-09-02
+45. 2024-08-31 20:24:30 INFO  [UserService] User profile picture updated: userId=67890, newPictureUrl=https://example.com/images/67890.jpg
+46. 2024-08-31 20:25:10 ERROR [DatabaseService] Index creation failed: indexName=idx_orders_userId, table=orders, error=Duplicate key
+47. 2024-08-31 20:26:25 DEBUG [CacheService] Cache invalidated for key=order_543
+1. 2024-08-31 20:26:25 DEBUG [CacheService] Cache invalidated for key=order_54321, cacheName=OrderCache, action=clearCache
+2. 2024-08-31 20:27:50 INFO  [NotificationService] Verification email sent: userId=67890, email=janedoe@example.com, verificationCode=ABC123
+3. 2024-08-31 20:28:35 WARN  [PaymentService] Payment method expired: orderId=12345, userId=67890, cardType=Visa
+4. 2024-08-31 20:29:20 INFO  [UserService] User account reactivated: userId=98765, reactivationDate=2024-08-31
+5. 2024-08-31 20:30:05 ERROR [OrderService] Order refund failed: orderId=54321, error=Refund amount exceeds limit, userId=67890
+6. 2024-08-31 20:31:30 DEBUG [InventoryService] Inventory check completed: productId=98765, currentStock=150, warehouse=WH1
+7. 2024-08-31 20:32:15 INFO  [AuthService] User session extended: username=janedoe, userId=67890, newExpiry=2024-08-31 21:00:00
+8. 2024-08-31 20:33:45 WARN  [NotificationService] Push notification failed: userId=67890, error=Device not registered, deviceId=DEV12345
+9. 2024-08-31 20:34:30 INFO  [UserService] User email updated: userId=67890, newEmail=janedoe_new@example.com, oldEmail=janedoe@example.com
+10. 2024-08-31 20:35:10 ERROR [DatabaseService] Transaction rollback: transactionId=TX12345, reason=Deadlock detected
+11. 2024-08-31 20:36:25 DEBUG [CacheService] Cache preloaded for key=category_54321, cacheName=CategoryCache, preloadTime=2024-08-31 20:16:00
+12. 2024-08-31 20:37:50 INFO  [OrderService] Order delivered: orderId=54321, deliveryDate=2024-08-31, deliveryTime=14:30
+13. 2024-08-31 20:38:35 WARN  [PaymentService] Payment authorization pending: orderId=12345, userId=67890, authorizationId=AUTH12345
+14. 2024-08-31 20:39:20 INFO  [UserService] User subscription renewed: userId=98765, subscriptionType=Premium, renewalDate=2024-08-31
+15. 2024-08-31 20:40:05 ERROR [NotificationService] SMS sending failed: userId=67890, phone=+1234567890, error=Invalid phone number format
+16. 2024-08-31 20:41:30 DEBUG [InventoryService] Product removed from inventory: productId=54321, quantityRemoved=50, warehouse=WH2
+17. 2024-08-31 20:42:15 INFO  [AuthService] User logged out: username=janedoe, userId=67890, sessionDuration=7200s
+18. 2024-08-31 20:43:45 WARN  [OrderService] Order shipment delayed: orderId=12345, reason=Carrier issue, newExpectedDelivery=2024-09-02
+19. 2024-08-31 20:44:30 INFO  [UserService] User profile picture updated: userId=67890, newPictureUrl=https://example.com/images/67890.jpg
+20. 2024-08-31 20:45:10 ERROR [DatabaseService] Index creation failed: indexName=idx_orders_userId, table=orders, error=Duplicate key
+21. 2024-08-31 20:46:25 DEBUG [CacheService] Cache invalidated for key=order_54321, cacheName=OrderCache, action=clearCache
+22. 2024-08-31 20:47:50 INFO  [NotificationService] Verification email sent: userId=67890, email=janedoe@example.com, verificationCode=ABC123
+23. 2024-08-31 20:48:35 WARN  [PaymentService] Payment method expired: orderId=12345, userId=67890, cardType=Visa
+24. 2024-08-31 20:49:20 INFO  [UserService] User account reactivated: userId=98765, reactivationDate=2024-08-31
+25. 2024-08-31 20:50:05 ERROR [OrderService] Order refund failed: orderId=54321, error=Refund amount exceeds limit, userId=67890
+26. 2024-08-31 20:51:30 DEBUG [InventoryService] Inventory check completed: productId=98765, currentStock=150, warehouse=WH1
+27. 2024-08-31 20:52:15 INFO  [AuthService] User session extended: username=janedoe, userId=67890, newExpiry=2024-08-31 21:00:00
+28. 2024-08-31 20:53:45 WARN  [NotificationService] Push notification failed: userId=67890, error=Device not registered, deviceId=DEV12345
+29. 2024-08-31 20:54:30 INFO  [UserService] User email updated: userId=67890, newEmail=janedoe_new@example.com, oldEmail=janedoe@example.com
+30. 2024-08-31 20:55:10 ERROR [DatabaseService] Transaction rollback: transactionId=TX12345, reason=Deadlock detected
+31. 2024-08-31 20:56:25 DEBUG [CacheService] Cache preloaded for key=category_54321, cacheName=CategoryCache, preloadTime=2024-08-31 20:16:00
+32. 2024-08-31 20:57:50 INFO  [OrderService] Order delivered: orderId=54321, deliveryDate=2024-08-31, deliveryTime=14:30
+33. 2024-08-31 20:58:35 WARN  [PaymentService] Payment authorization pending: orderId=12345, userId=67890, authorizationId=AUTH12345
+34. 2024-08-31 20:59:20 INFO  [UserService] User subscription renewed: userId=98765, subscriptionType=Premium, renewalDate=2024-08-31
+35. 2024-08-31 21:00:05 ERROR [NotificationService] SMS sending failed: userId=67890, phone=+1234567890, error=Invalid phone number format
+36. 2024-08-31 21:01:30 DEBUG [InventoryService] Product removed from inventory: productId=54321, quantityRemoved=50, warehouse=WH2
+37. 2024-08-31 21:02:15 INFO  [AuthService] User logged out: username=janedoe, userId=67890, sessionDuration=7200s
+38. 2024-08-31 21:03:45 WARN  [OrderService] Order shipment delayed: orderId=12345, reason=Carrier issue, newExpectedDelivery=2024-09-02
+39. 2024-08-31 21:04:30 INFO  [UserService] User profile picture updated: userId=67890, newPictureUrl=https://example.com/images/67890.jpg
+40. 2024-08-31 21:05:10 ERROR [DatabaseService] Index creation failed: indexName=idx_orders_userId, table=orders, error=Duplicate key
+41. 2024-08-31 21:06:25 DEBUG [CacheService] Cache invalidated for key=order_54321, cacheName=OrderCache, action=clearCache
+42. 2024-08-31 21:07:50 INFO  [NotificationService] Verification email sent: userId=67890, email=janedoe@example.com, verificationCode=ABC123
+43. 2024-08-31 21:08:35 WARN  [PaymentService] Payment method expired: orderId=12345, userId=67890, cardType=Visa
+44. 2024-08-31 21:09:20 INFO  [UserService] User account reactivated: userId=98765, reactivationDate=2024-08-31
+45. 2024-08-31 21:10:05 ERROR [OrderService] Order refund failed: orderId=54321, error=Refund amount exceeds limit, userId=67890
+46. 2024-08-31 21:11:30 DEBUG [InventoryService] Inventory check completed: productId=98765, current
